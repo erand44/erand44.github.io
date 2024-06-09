@@ -1,0 +1,71 @@
+h1 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    color: aliceblue;
+}
+ 
+img {
+    position: absolute;
+    left: 50px;
+    top: 200px;
+}
+button {
+    margin: 20px 10px;
+    font-family: "Oswald", sans-serif;
+    color: #333333;
+    font-size: 25px;
+    position: absolute;
+    left: 20px;
+    top: 310px;
+    background-color: darkorange;
+    border-radius: 40px;
+    border: 0;
+    font-weight: 700;
+}
+#kr50 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    color: #ecf0f1;
+    position: absolute;
+    left: 90px;
+    top: 300px;
+}
+#Screwdriver-one {
+    position: absolute;
+    left: 200px;
+    top: 200px;
+}
+#Second-button {
+    position: absolute;
+    left: 220px;
+    top: 310px;
+}
+#kr20 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    color: aliceblue;
+    position: absolute;
+    left: 285px;
+    top: 300px;
+}
+body {
+    background-color: #1a1a2e; /* Dark navy blue */
+    color: #dcdde1; /* Light gray for text */
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+}
+#Screwdriver-red {
+    position: absolute;
+    left: 420px;
+    top: 170px;
+}
+#Third-button {
+    position: absolute;
+    left: 400px;
+    top: 310px;
+}
+#kr15 {
+    position: absolute;
+    left: 460px;
+    top: 300px;
+}

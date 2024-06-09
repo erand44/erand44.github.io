@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@432&display=swap" rel="stylesheet">
+    <style>
+
+        #krbody {
+            background-color: #1a1a2e;
+            color: #dcdde1;
+            position: relative;
+            height: 100vh;
+        }
+        img {
+            position: absolute;
+            left: 50px;
+            top: 150px;
+        }
+        p {
+            position: absolute;
+            left: 310px;
+            top: 150px;
+            font-size: x-large;
+            
+        }
+        button {
+            font-family: oswald;
+            margin: 20px 10px;
+            color: #333333;
+            font-size: 25px;
+            position: absolute;
+            left: 300px;
+            top: 310px;
+            background-color: darkorange;
+            border-radius: 40px;
+            border: 0;
+            margin: 1rem 0;
+            font-weight: 1000;
+            cursor: pointer;
+        }
+        .hidden {
+            display: none;
+            position: absolute;
+            top: 400px;
+            left: 300px;
+            font-size: 20px;
+            color: limegreen;
+        }
+        button:focus + .hidden {
+            display: block;
+        }
+        body{
+            font-family: oswald;
+        }
+    </style>
+</head>
+<body id="krbody">
+    <img src="woodHammer.png" width="250" length="250"> 
+    <p>This wood-handled hammer combines traditional design with modern functionality. Perfect for lighter tasks such as crafting and minor home repairs, it provides a comfortable grip and precise control. Get this classic tool for only $15.</p>
+    <button>Buy Now</button>
+    <div class="hidden">Congratulations! You've successfully purchased the Wood hammer.</div>
+</body>
+</html>

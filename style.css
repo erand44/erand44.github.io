@@ -1,0 +1,35 @@
+body {
+    background-color: #1a1a2e; /* Dark navy blue */
+    color: #dcdde1; /* Light gray for text */
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 410;
+  font-style: normal;
+}
+#screwdriverHtml {
+  margin: 20px 10px;
+    font-family: "Oswald", sans-serif;
+    color: #333333;
+    font-size: 25px;
+    position: absolute;
+    background-color: darkorange;
+    border-radius: 40px;
+    border: 0;
+    font-weight: 700;
+    top: 100px;
+    left: 0.1px;
+}
+#hammersHtml {
+  margin: 20px 1px;
+    font-family: "Oswald", sans-serif;
+    color: #333333;
+    font-size: 25px;
+    position: absolute;
+    background-color: darkorange;
+    border-radius: 40px;
+    border: 0;
+    font-weight: 700;
+    top: 200px;
+    left: 1px;
+}
+

@@ -1,0 +1,76 @@
+h1 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    color: aliceblue;
+}
+
+#kr50 {
+    position: absolute;
+    left: 90px;
+    top: 300px;
+}
+
+#kr20 {
+    position: absolute;
+    left: 285px;
+    top: 300px;
+}
+
+#kr15 {
+    position: absolute;
+    left: 460px;
+    top: 300px;
+}
+
+img {
+    position: absolute;
+}
+
+#redHammer {
+    left: 50px;
+    top: 180px;
+}
+
+#blueHammer {
+    left: 220px;
+    top: 180px;
+}
+
+#woodHammer {
+    left: 400px;
+    top: 180px;
+}
+
+button {
+    margin: 20px 10px;
+    font-family: "Oswald", sans-serif;
+    color: #333333;
+    font-size: 25px;
+    position: absolute;
+    background-color: darkorange;
+    border-radius: 40px;
+    border: 0;
+    font-weight: 700;
+}
+
+button:first-of-type {
+    left: 20px;
+    top: 310px;
+}
+
+#Second-button {
+    left: 220px;
+    top: 310px;
+}
+
+#Third-button {
+    left: 400px;
+    top: 310px;
+}
+
+body {
+    background-color: #1a1a2e; /* Dark navy blue */
+    color: #dcdde1; /* Light gray for text */
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+}
