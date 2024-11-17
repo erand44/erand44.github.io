@@ -69,3 +69,8 @@ body {
     left: 460px;
     top: 300px;
 }
+html, body {
+  height: 100%;       /* Make sure the page height is full */
+  overflow: auto;     /* Allows the whole page to scroll */
+}
+
