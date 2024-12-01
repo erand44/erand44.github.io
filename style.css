@@ -1,48 +1,69 @@
+/* Reset default margin, padding and box-sizing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
 body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
   background-color: #1a1a2e; /* Dark navy blue */
-  color: #dcdde1; /* Light gray for text */
+  color: #dcdde1; /* Light gray text */
   font-family: "Oswald", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 410;
-  font-style: normal;
-  overflow: auto; /* Enables scrolling on the whole page when content overflows */
-  height: 100%; /* Make sure the body takes full height */
-  margin: 0; /* Remove default margin */
+  margin: 0;
+  text-align: center; /* Center text */
 }
 
-#screwdriverHtml {
-  margin: 20px 10px;
-  font-family: "Oswald", sans-serif;
-  color: #333333;
-  font-size: 25px;
-  position: absolute;
-  background-color: darkorange;
-  border-radius: 40px;
-  border: 0;
+/* Heading styles */
+h1 {
+  font-size: 3rem; /* Larger text */
+  margin-top: 50px;
+  margin-bottom: 30px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Button styles */
+button {
+  background-color: #ff6f61; /* Light red-orange */
+  color: #fff;
+  font-size: 1.2rem;
   font-weight: 700;
-  top: 100px;
-  left: 0.1px;
+  border-radius: 50px;
+  padding: 15px 30px;
+  border: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  cursor: pointer;
+  margin-bottom: 20px;
+  width: 80%; /* Make buttons take up most of the width */
+  max-width: 350px; /* Limit button width */
 }
 
-#hammersHtml {
-  margin: 20px 1px;
-  font-family: "Oswald", sans-serif;
-  color: #333333;
-  font-size: 25px;
-  position: absolute;
-  background-color: darkorange;
-  border-radius: 40px;
-  border: 0;
-  font-weight: 700;
-  top: 200px;
-  left: 1px;
+/* Button hover effect */
+button:hover {
+  background-color: #ff8a71; /* Lighter red */
+  transform: scale(1.05);
 }
 
-.scrollable-section {
-  width: 80%;        /* Adjust the width as needed */
-  height: 300px;     /* Set a fixed height for the scrollable area */
-  overflow: auto;    /* Enables scrolling when content overflows */
-  border: 2px solid #dcdde1;  /* Optional: adds a border around the scrollable area */
-  margin: 20px auto; /* Center the div */
-  padding: 10px;     /* Padding for better appearance */
+/* Focus style for button */
+button:focus {
+  outline: none;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  body {
+    padding: 10px;
+  }
+  h1 {
+    font-size: 2rem; /* Smaller heading size */
+  }
+  button {
+    font-size: 1rem;
+    padding: 12px 25px;
+  }
 }
