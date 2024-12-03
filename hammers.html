@@ -3,23 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Screwdrivers</title>
+    <title>Hammers for Sale</title>
+    <!-- Link to the external CSS file -->
     <link rel="stylesheet" href="hammer.css">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
-    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Hammers for sale</h1>
-    <h1 id="kr50">50 Dollars</h1>
-    <h1 id="kr20">20 Dollars</h1>
-    <h1 id="kr15">15 Dollars</h1>
-    <img src="redHammer.png" width="130" height="130" id="redHammer">
-    <img src="blueHammer.png" width="130" height="130" id="blueHammer">
-    <img src="woodHammer.png" width="120" height="120" id="woodHammer">
+    <h1>Hammers for Sale</h1>
     
-    <a href="redHammer.html"><button>Buy</button></a>
-    <a href="blueHammer.html"><button id="Second-button">Buy</button></a>
-    <a href="woodHammer.html"><button id="Third-button">Buy</button></a>
+    <div class="products">
+        <div class="product">
+            <img src="redHammer.png" alt="Red Hammer">
+            <p class="price">50 Dollars</p>
+            <a href="redHammer.html"><button>Buy</button></a>
+        </div>
+        
+        <div class="product">
+            <img src="blueHammer.png" alt="Blue Hammer">
+            <p class="price">20 Dollars</p>
+            <a href="blueHammer.html"><button>Buy</button></a>
+        </div>
+        
+        <div class="product">
+            <img src="woodHammer.png" alt="Wood Hammer">
+            <p class="price">15 Dollars</p>
+            <a href="woodHammer.html"><button>Buy</button></a>
+        </div>
+    </div>
 </body>
 </html>
